@@ -9,7 +9,7 @@ Parameters:
   lambdaFunctionName:
     Type: "String"
     AllowedPattern: "^[a-zA-Z0-9]+[a-zA-Z0-9-]+[a-zA-Z0-9]+$"
-    Default: "my-function"
+    Default: "my-test-function"
 
 Resources:
   apiGateway:
